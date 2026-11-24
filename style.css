@@ -17,7 +17,7 @@ body {
     margin-bottom: 12px;
 }
 
-em {
+em, h3 {
     color: rgb(162, 135, 98);
 }
 
@@ -34,4 +34,18 @@ input {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(99, 115, 129);
+}
+
+.selesai {
+    text-decoration: line-through;
 }
